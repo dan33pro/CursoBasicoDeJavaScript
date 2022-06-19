@@ -5,9 +5,13 @@
   "main": "1-valores.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run:clase2": "nodemon 2-variables.js",
-    "run:clase3": "nodemon 3-funciones.js",
-    "run:clase4": "nodemon 4-scope.js"
+    "clase2": "nodemon 2-variables.js",
+    "clase3": "nodemon 3-funciones.js",
+    "clase4": "nodemon 4-scope.js",
+    "clase5": "nodemon 5-hoisting.js",
+    "clase6": "nodemon 6-coercion.js",
+    "clase7": "nodemon 7-Truthy-y-Falsy.js",
+    "clase8": "nodemon 8-operadores.js"
   },
   "author": "DanielCG",
   "license": "ISC",
