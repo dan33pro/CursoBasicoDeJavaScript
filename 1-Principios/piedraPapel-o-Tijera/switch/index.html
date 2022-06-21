@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera</title>
+    <script src="./11-switch-game.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="marcador">
+        <h2>Marcador</h2>
+        <div class="seleccion">
+            <div>
+                <span class="misPuntos">0</span>
+            </div>
+            <div>
+                <span>:</span>
+            </div>
+            <div>
+                <span class="pcPuntos">0</span>
+            </div>
+        </div>
+    </div>
+    <div class="seleccion">
+        <div class="miOpcion">
+            <span class="miOpcion-icono">😎</span>
+            <div>Jugador</div>
+        </div>
+        <div>
+            <span>:</span>
+        </div>
+        <div class="pcOpcion">
+            <span class="pcOpcion-icono">💻</span>
+            <div>PC</div>
+        </div>
+    </div>
+    <div class="principal-section">
+        <form class="options" action="index.html" method="post">
+            <input type="button" name="option" value="👊" onclick="optionR();" class="option">
+            <input type="button" name="option" value="✋" onclick="optionP();" class="option">
+            <input type="button" name="option" value="✌️" onclick="optionS();" class="option">
+        </form>
+        <div class="refrescar">
+            <button onclick="reiniciar();" class="reiniciar">Reiniciar</button>
+        </div>
+    </div>
+    <script src="./11-switch-game.js"></script>
+</body>
+
+</html>

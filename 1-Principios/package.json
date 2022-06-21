@@ -11,7 +11,10 @@
     "clase5": "nodemon 5-hoisting.js",
     "clase6": "nodemon 6-coercion.js",
     "clase7": "nodemon 7-Truthy-y-Falsy.js",
-    "clase8": "nodemon 8-operadores.js"
+    "clase8": "nodemon 8-operadores.js",
+    "clase9": "nodemon 9-condicionales.js",
+    "clase10": "nodemon 10-switch.js",
+    "clase11": "nodemon 11-arrays.js"
   },
   "author": "DanielCG",
   "license": "ISC",
