@@ -14,7 +14,9 @@
     "clase8": "nodemon 8-operadores.js",
     "clase9": "nodemon 9-condicionales.js",
     "clase10": "nodemon 10-switch.js",
-    "clase11": "nodemon 11-arrays.js"
+    "clase11": "nodemon 11-arrays.js",
+    "clase12": "nodemon 12-loops.js",
+    "clase13": "nodemon 13-objects.js"
   },
   "author": "DanielCG",
   "license": "ISC",

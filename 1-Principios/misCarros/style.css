@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    width: 100vw;
+    background: rgba(181, 239, 247, 0.842);
+}
+
+.container {
+    position: absolute;
+    top: 10vh;
+    right: 15vw;
+    padding: 40px 20px;
+    width: 30vw;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.253),
+                -10px -10px 15px rgba(255, 255, 255, 0.562),
+                -5px -5px 10px rgba(255, 255, 255, 0.507);
+}
+
+.cars-register {
+    width: 30vw;
+    height: 50vh;
+    position: fixed;
+    left: 15vw;
+    top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    border-radius: 20px;
+    background: white;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.253),
+                -10px -10px 15px rgba(255, 255, 255, 0.562),
+                -5px -5px 10px rgba(255, 255, 255, 0.507);
+}
+
+.cars-register label span {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.cars-register label input[type="text"] {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.button {
+    margin: 20px 0 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    transition: box-shadow 200ms ease-in,
+                background 200ms ease-in;
+}
+
+.button:hover {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.322);
+    background: orange;
+}
+
+.registrados {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    place-items: center;
+}
+
+.registrados h2 {
+    padding: 20px 5px;
+    font-size: 1.2rem;
+}
+
+.registrados .lista {
+    align-self: start;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.lista .carro {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.lista .carro h3 {
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px 0;
+}
+
+.lista .carro p {
+    font-size: 0.8rem;
+}
+
+.lista .carro .negrilla {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+
+
