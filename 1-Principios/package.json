@@ -16,7 +16,8 @@
     "clase10": "nodemon 10-switch.js",
     "clase11": "nodemon 11-arrays.js",
     "clase12": "nodemon 12-loops.js",
-    "clase13": "nodemon 13-objects.js"
+    "clase13": "nodemon 13-objects.js",
+    "clase14": "nodemon 14-array-and-objects"
   },
   "author": "DanielCG",
   "license": "ISC",

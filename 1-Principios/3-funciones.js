@@ -5,7 +5,8 @@ function miFuncion(){
 console.log("Numero: "+miFuncion());
 
 // Expresión
-var miFuncion = function(a, b) {
+// En lugar del => también va function(Son funciones anonimas)
+var miFuncion = (a, b) => {
     return a * b;
 };
 console.log("La multiplición es: "+ miFuncion(3, 4));

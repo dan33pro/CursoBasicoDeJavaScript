@@ -1,6 +1,7 @@
 var frutas = ["Manzana", "Pera", "Fresa", "Limon"];
 var tam = frutas.length;
 
+// Se puede agregar más de un elemento a la vez, supongo que eliminar también XD
 //Agrega al final
 frutas.push("Uvas");
 tam++;
